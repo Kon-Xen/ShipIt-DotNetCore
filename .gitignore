@@ -2,3 +2,10 @@
 **/.env
 bin
 obj
+.fake
+
+**/bin/
+**/obj/
+**/.vscode/
+**/Logs/
+.fake
