@@ -9,7 +9,9 @@ Make sure that the directory of your Postgres, e.g. C:\Program Files\PostgreSQL\
 Restart your code editor and then just run the command 'psql' in the terminal to check that this can run without errors.
 Download the .sql file from https://techswitch.atlassian.net/wiki/spaces/0RC/pages/1510080525/Trainer+Notes+-+ShipIt and save to the ShipIt folder.
 In PGAdmin, create a new user <USER> to run this project with, and a new empty database <DATABASE> owned by <USER>
-Navigate to the ShipIt folder and run the following command: psql -U <USER> -d postgresql://localhost:5432/<DATABASE> -f ShipIt-database-dump.sql
+
+Navigate to the ShipIt folder and run the following command: 
+```psql -U <USER> -d postgresql://localhost:5432/<DATABASE> -f ShipIt-database-dump.sql```
 Enter the password that you created for <USER> and do not worry that you cannot see the password being typed as you type it
 
 Replicate this process for ShipItTest when required.
